@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  font-family: lato;
+  font-size: 1.6rem;
+}
+
+.testimonial__content p {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: $txt_color;
+  line-height: 5rem;
+}
+.testimonial__footer__name {
+  text-transform: uppercase;
+  color: $white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.testimonial__footer__website {
+  color: #b3b6eb;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media only screen and (min-width: 320px) {
+  .testimonial__content p {
+    line-height: 6rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .testimonial__content p {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .testimonial__content p {
+    font-size: 2rem;
+    padding: 4rem 3rem;
+    line-height: 4rem;
+  }
+  .testimonial__footer__name {
+    margin-top: 1rem;
+    text-transform: uppercase;
+    color: $white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+  }
+  .testimonial__footer__website {
+    font-size: 1.5rem;
+  }
+}

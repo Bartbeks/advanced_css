@@ -1,0 +1,10 @@
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+@import "./base/_base.scss";
+@import "./base/animations";
+
+@import "./base/typography";
+
+@import "./components/_testimonial";
+@import "./components/gallery";
+@import "./components/socials";
